@@ -1,0 +1,49 @@
+#container{
+	margin: 0;
+	width: 100%;
+
+}
+
+#header{
+	font-family: 'Sigmar One', cursive;
+	color: #84e2a4;
+	font-size: 36pt;
+	padding-left: 20%;
+}
+
+#choc{
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	float: left;
+	padding-left:15%;
+	padding-top:1%;
+
+}
+
+#oreo{
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	float: left;
+	padding-left:5%;
+	padding-top:1%;
+	
+
+
+
+}
+
+#pb{
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	width:300px;
+	height:300px;
+ 	float: left;
+ 	padding-left:5%;
+ 	padding-top:1%;
+
+
+}

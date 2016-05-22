@@ -83,5 +83,10 @@ $(document).ready(function(){
 		Cookies.set('pb', 0)
 		$('#pb_bag').text(Cookies.get('pb'))
 	})
+#('#clearAll').click(function(){
+		pb = pb - 1, ci = ci -1, oi= -1
+		Cookies.set('pb', 0; 'choc', 0; 'oi', 0;)
+		$('#pb_bag', '#choc_bag','#oreo_bag').text(Cookies.get('pb', 'choc', 'oi'))
+	})
 
 });

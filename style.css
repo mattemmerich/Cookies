@@ -8,7 +8,7 @@
 	font-family: 'Sigmar One', cursive;
 	color: #84e2a4;
 	font-size: 36pt;
-	padding-left: 20%;
+	padding-left: 15%;
 }
 
 #choc{
@@ -17,9 +17,13 @@
 	width: 300px;
 	height: 300px;
 	float: left;
-	padding-left:15%;
+	padding-left:10%;
 	padding-top:1%;
 
+}
+
+#chocbag{
+	z-index:1;
 }
 
 #oreo{

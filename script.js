@@ -9,6 +9,7 @@ $(document).ready(function(){
 
  function chocCounter(){
  			ci = ci+1
+ 			console.log(ci)
  			Cookies.set('choc', parseInt(ci));
  			$('#choc_bag').text(Cookies.get('choc'))
 
@@ -83,10 +84,17 @@ $(document).ready(function(){
 		Cookies.set('pb', 0)
 		$('#pb_bag').text(Cookies.get('pb'))
 	})
-#('#clearAll').click(function(){
-		pb = pb - 1, ci = ci -1, oi= -1
-		Cookies.set('pb', 0; 'choc', 0; 'oi', 0;)
-		$('#pb_bag', '#choc_bag','#oreo_bag').text(Cookies.get('pb', 'choc', 'oi'))
+	$('#clearAll').click(function(){
+		console.log("cleared");
+		// pb = pb - 1, ci = ci -1, oi= -1
+		Cookies.set('pb', 0)
+		Cookies.set('choc', 0)
+		Cookies.set('oreo', 0)
+		$('#choc_bag').text(Cookies.get('choc', 0))
+		$('#pb_bag').text(Cookies.get('pb'))
+		$('#oreo_bag').text(Cookies.get('oreo'))
+		
+		// 	$('#pb_bag', '#choc_bag','#oreo_bag').text(Cookies.get('pb', 'choc', 'oi'))
 	})
 
 });
